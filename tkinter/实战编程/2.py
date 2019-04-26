@@ -14,5 +14,6 @@ my_entry = Entry(root)
 my_entry.pack(side=LEFT)
 
 
+
 Button(root, text='print_entry', command=a).pack(side=BOTTOM)
 root.mainloop()
