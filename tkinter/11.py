@@ -17,6 +17,6 @@ root.geometry(tmpcnf)
 root.resizable(False, False)
 
 Label(root, text='我是标签', bg='yellow').pack(side=LEFT)
-Button(root, text='我司按钮', bg='yellow').pack()
+Button(root, text='我是按钮', bg='yellow').pack()
 
 root.mainloop()

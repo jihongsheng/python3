@@ -1,5 +1,4 @@
 from tkinter import  Tk, Menu
-
 root = Tk()
 
 # 创建窗口顶部的菜单栏对象

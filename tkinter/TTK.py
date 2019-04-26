@@ -2,6 +2,7 @@ from tkinter import *
 # 增加如下导包语句即可
 from tkinter.ttk import *
 
+
 root = Tk()
 root.geometry("300x300")
 

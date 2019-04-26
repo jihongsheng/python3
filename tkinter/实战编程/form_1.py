@@ -1,4 +1,6 @@
-import tkinter as tk
+from tkinter import *
+# 增加如下导包语句即可
+from tkinter.ttk import *
 
 
 class App:
@@ -13,19 +15,20 @@ class App:
     def set_window(self):
         self.root.title("测试")
         self.root.resizable(False, False)
+        self.root.geometry("300x300")
 
     # 创建顶部
     def create_top(self):
-        tk.Label(self.root, text='Top').pack()
+        Label(self.root, text='Top').pack()
 
     # 创建主体
     def create_body(self):
-        self.input = tk.StringVar()
-        tk.Entry(self.root, textvariable=self.input).pack()
+        self.input = StringVar()
+        Entry(self.root, textvariable=self.input).pack()
 
     # 创建底部
     def create_bottom(self):
-        tk.Button(self.root, text='Bottom', command=self.onclick).pack()
+        Button(self.root, text='Bottom', command=self.onclick).pack()
 
     # 按钮回调函数
     def onclick(self):
@@ -33,7 +36,7 @@ class App:
 
 
 if __name__ == "__main__":
-    root = tk.Tk()
+    root = Tk()
     App(root)
     root.mainloop()
 

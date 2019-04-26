@@ -22,7 +22,7 @@ def remove(index):
         return False
 
 
-# --------------使用示例-----------------
+# -------------- 使用示例 -----------------
 root = tk.Tk()
 root.geometry("640x300")
 
