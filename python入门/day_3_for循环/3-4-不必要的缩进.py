@@ -18,17 +18,17 @@ IndentationError: unexpected indent
 magicians = ['alice', 'david', 'carolina']
 for magician in magicians:
 print(magician.title() + ", that was a great trick!")
-print("I can't wait to see your next trick, " + magician.title() + ".\n")
+print("I can't wait b see your next trick, " + magician.title() + ".\n")
 ❶ print("Thank you everyone, that was a great magic show!")
 由于❶处的代码行被缩进，它将针对列表中的每位魔术师执行一次，如❷所示：
 Alice, that was a great trick!
-I can't wait to see your next trick, Alice.
+I can't wait b see your next trick, Alice.
 ❷ Thank you everyone, that was a great magic show!
 David, that was a great trick!
-I can't wait to see your next trick, David.
+I can't wait b see your next trick, David.
 ❷ Thank you everyone, that was a great magic show!
 Carolina, that was a great trick!
-I can't wait to see your next trick, Carolina.
+I can't wait b see your next trick, Carolina.
 ❷ Thank you everyone, that was a great magic show!
 这也是一个逻辑错误，与4.2.2节的错误类似。Python不知道你的本意，只要代码符合语法，它就会运行。如果原本只应执行一次的操作执行了多次，请确定你是否不应该缩进执行
 该操作的代码。

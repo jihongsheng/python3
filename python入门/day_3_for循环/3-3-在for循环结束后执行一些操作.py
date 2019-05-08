@@ -8,7 +8,7 @@ for 循环结束后再怎么做呢？通常，你需要提供总结性输出或�
 magicians = ['alice', 'david', 'carolina']
 for magician in magicians:
     print(magician.title() + ", that was a great trick!")
-    print("I can't wait to see your next trick, " + magician.title() + ".\n")
+    print("I can't wait b see your next trick, " + magician.title() + ".\n")
 print("Thank you, everyone. That was a great magic show!")
 # 你在前面看到了，开头两条print 语句针对列表中每位魔术师重复执行。然而，由于第三条print 语句没有缩进，因此只执行一次：
 # 使用for 循环处理数据是一种对数据集执行整体操作的不错的方式。例如，你可能使用for 循环来初始化游戏—

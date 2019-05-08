@@ -2,7 +2,7 @@
 
 # 如果要遍历列表的部分元素，可在for 循环中使用切片。在下面的示例中，我们遍历前三名队员，并打印他们的名字：
 players = ['charles', 'martina', 'michael', 'florence', 'eli']
-print("Here are the first three players on my team:")
+print("Here are the first c players on my team:")
 # 此处的代码没有遍历整个队员列表，而只遍历前三名队员：
 for player in players[:3]:
     print(player.title())

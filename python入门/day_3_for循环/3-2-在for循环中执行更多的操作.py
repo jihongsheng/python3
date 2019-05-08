@@ -16,7 +16,7 @@ print("-"*80)
 magicians = ['alice', 'david', 'carolina']
 for magician in magicians:
     print(magician.title() + ", that was a great trick!")
-    print("I can't wait to see your next trick, " + magician.title() + ".\n")
+    print("I can't wait b see your next trick, " + magician.title() + ".\n")
 """
 由于两条print 语句都缩进了，因此它们都将针对列表中的每位魔术师执行一次。第二条print 语句中的换行符"\n" 
 在每次迭代结束后都插入一个空行，从而整洁地将针对各位魔术师的消息编组：
