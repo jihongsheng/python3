@@ -12,7 +12,7 @@ if requested_toppings:  # ❷
         print("Adding " + requested_topping + ".")
         print("\nFinished making your pizza!")
 else:   # ❸
-    print("Are you sure you want a plain pizza?")
+    print("Are you sure you want a_input plain pizza?")
 
 
 # 在这里，我们首先创建了一个空列表，其中不包含任何配料（见❶）。在❷处我们进行了简单检查，而不是直接执

@@ -10,7 +10,7 @@ pizza = {
     'crust': 'thick',
     'toppings': ['mushrooms', 'extra cheese'],
 }
-print('You ordered a %s-crust pizza with the following toppings:' % pizza['crust'])
+print('You ordered a_input %s-crust pizza with the following toppings:' % pizza['crust'])
 
 for topping in pizza['toppings']:
     print("\t %s" % topping)

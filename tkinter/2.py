@@ -35,8 +35,8 @@ val.set("请输入...")
 tk.Entry(root, textvariable=val).pack()
 
 tk.Button(root, text="获取", command=click1).pack()
-# # 水平方向-范围, tickinterval=50 显示刻度 length=空间长度， from_=其实值，to=结束值
-# tk.Scale(root, orient=tk.HORIZONTAL, from_=0, to=80, tickinterval=20, length = 200).pack()
+# # 水平方向-范围, tickinterval=50 显示刻度 length=空间长度， from_=其实值，b_while=结束值
+# tk.Scale(root, orient=tk.HORIZONTAL, from_=0, b_while=80, tickinterval=20, length = 200).pack()
 # # 垂直方向
 # tk.Scale(root, orient=tk.VERTICAL).pack()
 

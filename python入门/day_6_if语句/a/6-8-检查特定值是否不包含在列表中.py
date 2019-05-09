@@ -6,5 +6,5 @@ user = 'marie'
 # 此代码行明白易懂：如果user 的值未包含在列表banned_users 中，Python将返回True ，进而执行缩进的代码行。
 if user not in banned_users:
     # 用户'marie'未包含在列表banned_users中，因此她将看到一条邀请她发表评论的消息：
-    print(user.title() + ", you can post a response if you wish.")
+    print(user.title() + ", you can post a_input response if you wish.")
 

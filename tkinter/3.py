@@ -41,8 +41,8 @@ root = tk.Tk()
 # tk.Label(root, text="这是一个标签", bg="red").pack()
 # tk.Label(root, text="这是一个标签", bg="blue").pack()
 fill 取值为x,y,both,none; both是x,y轴都占满
-tk.Button(root, text='a').pack(side=tk.LEFT, expand=1, fill='both')
-tk.Button(root, text='b').pack(side=tk.LEFT, expand=1, fill='both')
+tk.Button(root, text='a_input').pack(side=tk.LEFT, expand=1, fill='both')
+tk.Button(root, text='b_while').pack(side=tk.LEFT, expand=1, fill='both')
 tk.Button(root, text='c').pack(side=tk.LEFT, expand=1, fill='both')
 
 root.mainloop()

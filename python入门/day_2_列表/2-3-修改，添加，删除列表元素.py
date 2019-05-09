@@ -67,7 +67,7 @@ print("-" * 80)
 motorcycles = ['honda', 'yamaha', 'suzuki']
 last_owned = motorcycles.pop()
 # 输出是一个简单的句子，指出了最新购买的是哪款摩托车：
-print("The last motorcycle I owned was a " + last_owned.title() + ".")
+print("The last motorcycle I owned was a_input " + last_owned.title() + ".")
 
 print("-" * 80)
 print("3. 弹出列表中任何位置处的元素")
@@ -76,7 +76,7 @@ motorcycles = ['honda', 'yamaha', 'suzuki']
 # 首先，我们弹出了列表中的第一款摩托车
 first_owned = motorcycles.pop(0)
 # 然后打印了一条有关这辆摩托车的消息
-print('The first motorcycle I owned was a ' + first_owned.title() + '.')
+print('The first motorcycle I owned was a_input ' + first_owned.title() + '.')
 
 """
 别忘了，每当你使用pop() 时，被弹出的元素就不再在列表中了。

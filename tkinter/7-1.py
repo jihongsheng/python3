@@ -1,7 +1,8 @@
-import tkinter as tk
+# import tkinter as tk
+from tkinter import *
 
 
-class App(tk.Tk):
+class App(Tk):
     def __init__(self):
         super().__init__()
 
@@ -17,20 +18,21 @@ class App(tk.Tk):
 
     # 创建顶部
     def create_top(self):
-        tk.Label(self, text='Top').pack()
+        Label(self, text='Top').pack()
 
     # 创建主体
     def create_body(self):
-        self.input = tk.StringVar()
-        tk.Entry(self, textvariable=self.input).pack()
+        self.input = StringVar()
+        Entry(self, textvariable=self.input).pack()
 
     # 创建底部
     def create_bottom(self):
-        tk.Button(self, text='Bottom', command=self.onclick).pack()
+        Button(self, text='Bottom', command=self.onclick).pack()
 
     # 按钮回调函数
     def onclick(self):
         print(self.input.get())
+
 
 if __name__ == "__main__":
     app = App()

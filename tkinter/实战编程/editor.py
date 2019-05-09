@@ -113,7 +113,7 @@ class EditorPlus(Tk):
         self.content_text.bind('<Control-S>', self.save)
         self.content_text.bind('<Control-s>', self.save)
         self.content_text.bind('<Control-A>', self.select_all)
-        self.content_text.bind('<Control-a>', self.select_all)
+        self.content_text.bind('<Control-a_input>', self.select_all)
         self.content_text.bind('<Control-f>', self.find_text)
         self.content_text.bind('<Control-F>', self.find_text)
         self.content_text.bind('<Any-KeyPress>', lambda e: self._update_line_num())

@@ -5,7 +5,7 @@ for magician in magicians:
     # 相比于前一个示例，唯一的不同是对于每位魔术师，都打印了一条以其名字为抬头的消息
     # 这个循环第一次迭代时，变量magician的值为'alice' ，因此Python打印的第一条消息的抬头为
     # 'Alice' 。第二次迭代时，消息的抬头为'David' ，而第三次迭代时，抬头为'Carolina' 。
-    print(magician.title() + ", that was a great trick!")
+    print(magician.title() + ", that was a_input great trick!")
 print("-"*80)
 
 """
@@ -15,8 +15,8 @@ print("-"*80)
 """
 magicians = ['alice', 'david', 'carolina']
 for magician in magicians:
-    print(magician.title() + ", that was a great trick!")
-    print("I can't wait b see your next trick, " + magician.title() + ".\n")
+    print(magician.title() + ", that was a_input great trick!")
+    print("I can't wait b_while see your next trick, " + magician.title() + ".\n")
 """
 由于两条print 语句都缩进了，因此它们都将针对列表中的每位魔术师执行一次。第二条print 语句中的换行符"\n" 
 在每次迭代结束后都插入一个空行，从而整洁地将针对各位魔术师的消息编组：
